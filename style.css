@@ -1,0 +1,162 @@
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            .header-container {
+                background-color: rgb(78, 2, 49);
+            }
+            
+            .logo-nav {
+                width: 60%;
+                margin: auto;
+            }
+            
+            .logo {
+                padding: 10px;
+                line-height: 10px;
+                text-align: justify;
+                font-size: 20px;
+                font-weight: bold;
+                color: white;
+                float: left;
+            }
+            
+            .logo img {
+                height: 70px;
+            }
+            
+            .header-container li {
+                list-style-position: inside;
+                list-style: none;
+                line-height: 10px;
+                text-align: justify;
+                font-size: 20px;
+                font-weight: bold;
+                margin: 2px;
+                color: white;
+                padding: 20px;
+                /* float: right; */
+                display: block;
+                float: right;
+                padding-top: 30px;
+            }
+            
+            .logo li:hover {
+                background-color: rgb(103, 4, 133);
+                border-radius: 10px;
+            }
+            
+            .one {
+                padding: 10px;
+                margin: auto;
+                width: 60%;
+            }
+            
+            .one div {
+                width: 22%;
+                padding: 10px;
+                display: inline-block;
+            }
+            
+            .one img {
+                width: 100px;
+                height: 100px;
+                display: block;
+                margin: auto;
+            }
+            
+            .one h4,
+            .one p,
+            .three-container h3,
+            .three-container p {
+                line-height: 20px;
+                text-align: justify;
+                font-size: 20px;
+                color: gray;
+                text-align: center;
+                padding: 20px;
+            }
+            
+            .one span {
+                background-color: rgb(78, 2, 49);
+                display: inline-block;
+                padding: 6px;
+                width: 70px;
+                text-align: center;
+                font-size: 20px;
+                color: white;
+                /* font-weight: bold; */
+                position: relative;
+                left: 65px;
+            }
+            
+            .two-container {
+                background-color: rgb(211, 56, 231);
+            }
+            
+            .two {
+                width: 60%;
+                margin: auto;
+            }
+            
+            .two img {
+                height: 150px;
+                width: 170px;
+                padding: 5px;
+                border-radius: 20px;
+                padding-bottom: 70px;
+            }
+            
+            .two h3,
+            .two p {
+                text-align: center;
+                color: rgb(250, 248, 224);
+                padding: 10px;
+                padding-top: 50px;
+            }
+            
+            .two p {
+                padding-top: 5px;
+            }
+            
+            .three-container {
+                width: 60%;
+                margin: auto;
+                height: 200px;
+            }
+            
+            .three1 {
+                float: left;
+                width: 50%;
+            }
+            
+            .three2 {
+                float: right;
+                width: 50%;
+            }
+            
+            .three-container span {
+                background-color: rgb(78, 2, 49);
+                display: inline-block;
+                padding: 6px;
+                width: 70px;
+                text-align: center;
+                font-size: 20px;
+                color: white;
+                /* font-weight: bold; */
+                position: relative;
+                left: 200px;
+            }
+            
+            .three-container img {
+                width: 300px;
+                height: 250px;
+                display: block;
+                padding: 20px;
+                margin: auto;
+            }
+            
+            .clearfix {
+                clear: both;
+            }
